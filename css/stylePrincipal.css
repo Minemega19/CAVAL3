@@ -293,6 +293,9 @@ a:hover, a:focus {color: #17a78b}
     width: 29%;
     margin-bottom:4%;
 }
+.valls{
+    width: 20%;
+}
 /*PACK DE BOUTON*/
 .boutonVert {
   position: relative;
