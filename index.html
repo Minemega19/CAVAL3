@@ -22,7 +22,17 @@
       
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" type="image/png" href="img/favicon.png"/>
-    
+      
+    <!-- Ouverture des pages -->
+    <script>
+        function ouvrirPage(num){
+            var url= new Array();
+            url[0]="korben&leeloo.html";
+            url[1]="vincent&mia.html";
+            url[2]="https://www.en-caval.fr/";
+            window.location=url[num];
+        }
+    </script>
   </head>
 <body>
     <div class="site-branding-area">
@@ -73,21 +83,18 @@
     </div>
     <div>
         <div id="photoMain">
-                <div class="row">
-                    <img class="imageM1" src="img/korbenleeloo.jpg" alt="1">
-                    <a href=""></a>
-                    <img class="imageM1" src="img/vincentmia-sahara-divine.jpg" alt="2">
-                    <img class="imageM1" src="img/korbenleeloo-divine-pink.jpg" alt="3">
-                    <img class="imageM1" src="img/vincentmia-black-divine.jpg" alt="4">
-                </div>
+            <img class="imageM1" src="img/korbenleeloo.jpg" alt="1">
+            <a href=""></a>
+            <img class="imageM1" src="img/vincentmia-sahara-divine.jpg" alt="2">
+            <img class="imageM1" src="img/vincentmia-black-divine.jpg" alt="3">
+            <img class="imageM1" src="img/korbenleeloo-divine-pink.jpg" alt="4">
         </div>
     </div>
     <h2 class="titleMain">Nos modèles</h2>
     <div id ="choixMain">
-<!--        <h2 class="textMenu">Korben<br>&leeloo</h2>-->
-        <a class= "textMenu" href="korben&leeloo.html"><input type="submit" value=" Korben&leeloo " class="boutonVert"></a>
-        <a class= "textMenu" href="vincent&mia.html"><input type="submit" value=" Vincent&Mia " class="boutonBleuFonce"></a>
-        <a class= "textMenu" href="https://www.en-caval.fr/"><input type="submit" value=" Modèles à venir " class="boutonMarronFonce"></a>
+        <input type="submit" value=" Korben&leeloo " class="boutonVert" onclick="ouvrirPage(0)">
+        <input type="submit" value=" Vincent&Mia " class="boutonBleuFonce" onclick="ouvrirPage(1)">
+        <input type="submit" value=" Modèles à venir " class="boutonMarronFonce" onclick="ouvrirPage(2)">
     </div>
     <h2 class="titleMain">CUIRS ITALIENS, SEMELLE COUSUE, Que demande le peuple ?</h2>
     <div class="footer-top-area">
@@ -139,7 +146,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>2018 Site non-officiel de Caval dans le cadre d'un projet de second semestre l'IUT informatique de Limoges. Site officiel : <a href="www.en-caval.fr" target="_blank">en-caval.com</a></p>
+                        <p>2018 Site non-officiel de Caval dans le cadre d'un projet de second semestre l'IUT informatique de Limoges. Site officiel : <a href="https://www.en-caval.fr" target="_blank">en-caval.com</a></p>
                     </div>
                 </div>
             </div>

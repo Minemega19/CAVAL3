@@ -23,6 +23,16 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" type="image/png" href="img/favicon.png"/>  
     
+    <!-- Ouverture des pages -->
+    <script>
+        function ouvrirPage(num){
+            var url= new Array();
+            url[0]="https://www.en-caval.fr/13-korbenleeloo";
+            url[1]="Qualitedefabrication.html";
+            window.location=url[num];
+        }
+    </script>
+      
   </head>
 <body>
     <div class="site-branding-area">
@@ -114,9 +124,9 @@
     
     <p class= "descriptifPage">Découvrez les CAVAL Korben&Leeloo. Un couples de baskets hors paires, ce sont deux baskets complémentaires ET de qualité irréprochable. Faites pour durer</p>
     
-    <a href="https://www.en-caval.fr/13-korbenleeloo"><input type="submit" value="Acheter maintenant " class="boutonVert"></a>
+    <input type="submit" value="Acheter maintenant " class="boutonVert" onclick= "ouvrirPage(0)">
     <br>
-    <a href="Qualitedefabrication.html"><input type="submit" value="Qualité de fabrication " class="boutonMarronFonce"></a>
+    <input type="submit" value="Qualité de fabrication " class="boutonMarronFonce" onclick= "ouvrirPage(1)">
 <div class="footer-top-area">
         <div class="container">
             <div class="row">
@@ -166,7 +176,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>2018 Site non-officiel de Caval dans le cadre d'un projet de second semestre l'IUT informatique de Limoges. Site officiel : <a href="www.en-caval.fr" target="_blank">en-caval.com</a></p>
+                        <p>2018 Site non-officiel de Caval dans le cadre d'un projet de second semestre l'IUT informatique de Limoges. Site officiel : <a href="https://www.en-caval.fr" target="_blank">en-caval.com</a></p>
                     </div>
                 </div>
             </div>
