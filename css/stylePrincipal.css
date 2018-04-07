@@ -202,7 +202,7 @@ a:hover, a:focus {color: #17a78b}
     margin-top: 2%;
 }
 .containerCarousel{
-    width:40%;
+    width:100%;
     margin-top: 2%;
     margin-bottom:2%;
     display: inline-block;
@@ -255,8 +255,6 @@ a:hover, a:focus {color: #17a78b}
     margin-top: 2%;
 }
 .droiteKorben{
-    display: inline-block;
-    position: absolute;
     margin-top: 5%;
     font-size:300%;
 }
